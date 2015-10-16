@@ -18,7 +18,7 @@ public class SimpleTest {
         Assert.assertEquals(result,false);
     }
 
-    @Test (groups = "sanity")
+    @Test (groups = "sanity, someAnotherGroup")
     public void twentyOneTest(){
         PrimalNumberChecker checker = new PrimalNumberChecker();
         boolean result = checker.isNumberPrimal(21);
